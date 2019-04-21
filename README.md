@@ -27,7 +27,7 @@ I have removed the original Linux used for compiling and configured network conn
   - 128MB Ram, no audio, no usb, poiniting device PS/2 Mouse, minimal video memory (9MB)
   
 ### Steps to compile Saltstack on LFS:
-- download dependencies (salt/satdeps)
+- download dependencies (salt/saltdeps)
 - download salt source (2019.2.0)
 - tornado version 6 breaks the build, use 5.1.1 instead
 - compiling scripts pending
