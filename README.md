@@ -1,11 +1,11 @@
 # Linux From Scratch 
 ## saltminion in vagrantbox
 
-This project is based on Linux From Scratch 8.4-systemd, which is has to compiled succesfully first. 
+This project is based on Linux From Scratch 8.4-systemd, which has to compiled succesfully first. 
 If you really want to learn what makes Linux tick, this is where to head:
 http://www.linuxfromscratch.org/lfs/view/8.4-systemd/
 
-Beyond Linux From Scratch is used to compile the tools needed
+Beyond Linux From Scratch guide is used to compile the tools needed:
 
 http://www.linuxfromscratch.org/blfs/view/8.4-systemd/
 
@@ -25,10 +25,11 @@ I have removed the original Linux used for compiling and configured network conn
 - Vagrantfile tuning, no synced folders
 - minimize the resources on the virtual machine before packaging the box
   - 128MB Ram, no audio, no usb, poiniting device PS/2 Mouse, minimal video memory (9MB)
+- package the box
   
 ### Steps to compile Saltstack on LFS:
 - download dependencies (salt/saltdeps)
-- download salt source (2019.2.0)
+- download salt source (2019.2.0) & install
 - tornado version 6 breaks the build, use 5.1.1 instead
 - compiling scripts pending
   - python3 setup.py build
