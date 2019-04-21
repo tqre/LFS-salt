@@ -1,5 +1,3 @@
-wget http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-7.9p1.tar.gz
-wget http://www.linuxfromscratch.org/patches/blfs/8.4/openssh-7.9p1-security_fix-1.patch
 install  -v -m700 -d /var/lib/sshd &&
 chown    -v root:sys /var/lib/sshd &&
 
