@@ -12,9 +12,8 @@ http://www.linuxfromscratch.org/blfs/view/8.4-systemd/
 I have removed the original Linux used for compiling and configured network connection with systemd.
 
 ### Steps to make Linux From Scratch Vagrant box:
-- virtualbox nat
-- install BLFS systemd units
 - compile wget
+- install BLFS systemd units
 - compile 7z (where is the salt tarball?)
 - compile openSSH
 - compile sudo
@@ -22,9 +21,10 @@ I have removed the original Linux used for compiling and configured network conn
 - give vagrant users sudo rights
 - set up the insecure keys from vagrant
 - enable sshd
+- virtualbox nat
 - Vagrantfile tuning, no synced folders
 - minimize the resources on the virtual machine before packaging the box
-  - 128MB Ram, no audio, no usb, poiniting device PS/2 Mouse
+  - 128MB Ram, no audio, no usb, poiniting device PS/2 Mouse, minimal video memory (9MB)
   
 ### Steps to compile Saltstack on LFS:
 - download dependencies (salt/satdeps)
