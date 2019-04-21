@@ -2,10 +2,11 @@
 ## saltminion in vagrantbox
 
 This project is based on Linux From Scratch 8.4-systemd, which is has to compiled succesfully first. 
-If you really want to learn what makes Linux tick, this is where to head. 
+If you really want to learn what makes Linux tick, this is where to head:
 http://www.linuxfromscratch.org/lfs/view/8.4-systemd/
 
-Beyond Linux From Scratch is used to compile the tools needed:
+Beyond Linux From Scratch is used to compile the tools needed
+
 http://www.linuxfromscratch.org/blfs/view/8.4-systemd/
 
 I have removed the original Linux used for compiling and configured network connection with systemd.
@@ -41,7 +42,7 @@ I have removed the original Linux used for compiling and configured network conn
 - enable salt-minion.service
 
 ### Current progress
-Manually created working salted-LFS version, where archlive-master can see and command LFS-salt-minion
+Manually created working salt-LFS version, where archlive-master can see and command LFS-salt-minion
 in virtualbox created NAT Network. Works despite master having a different Python version.
 Vagrantbox is ssh'able.
 
