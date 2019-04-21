@@ -17,8 +17,8 @@ I have removed the original Linux used for compiling and configured network conn
 - compile 7z (where is the salt tarball?)
 - compile openSSH
 - compile sudo
-- make vagrant users
-- give vagrant users sudo rights
+- make vagrant user
+- give vagrant user sudo rights
 - set up the insecure keys from vagrant
 - enable sshd
 - virtualbox nat
