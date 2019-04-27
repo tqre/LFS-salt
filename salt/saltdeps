@@ -1,6 +1,6 @@
 https://pyyaml.org/download/pyyaml/PyYAML-5.1.tar.gz
 http://pyyaml.org/download/libyaml/yaml-0.2.2.tar.gz
-https://files.pythonhosted.org/packages/8a/20/6eca772d1a5830336f84aca1d8198e5a3f4715cd1c7fc36d3cc7f7185091/msgpack-python-0.5.6.tar.gz
+https://github.com/msgpack/msgpack-python/archive/v0.6.1.tar.gz
 https://files.pythonhosted.org/packages/93/ea/d884a06f8c7f9b7afbc8138b762e80479fb17aedbbe2b06515a12de9378d/Jinja2-2.10.1.tar.gz
 https://files.pythonhosted.org/packages/b9/2e/64db92e53b86efccfaea71321f597fa2e1b2bd3853d8ce658568f7a13094/MarkupSafe-1.1.1.tar.gz
 http://www.apache.org/dyn/closer.cgi/libcloud/apache-libcloud-2.4.0.tar.gz
