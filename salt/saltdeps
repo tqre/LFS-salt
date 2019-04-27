@@ -6,7 +6,7 @@ https://files.pythonhosted.org/packages/b9/2e/64db92e53b86efccfaea71321f597fa2e1
 http://www.apache.org/dyn/closer.cgi/libcloud/apache-libcloud-2.4.0.tar.gz
 https://github.com/requests/requests/tarball/master/kennethreitz-requests-v2.21.0-21-g9742da7.tar.gz
 https://files.pythonhosted.org/packages/e6/78/6e7b5af12c12bdf38ca9bfe863fcaf53dc10430a312d0324e76c1e5ca426/tornado-5.1.1.tar.gz
-#https://files.pythonhosted.org/packages/03/3f/5f89d99fca3c0100c8cede4f53f660b126d39e0d6a1e943e95cc3ed386fb/tornado-6.0.2.tar.gz
 https://github.com/zeromq/libzmq/releases/download/v4.3.1/zeromq-4.3.1.tar.gz
 https://ftp.dlitz.net/pub/dlitz/crypto/pycrypto/pycrypto-2.6.1.tar.gz
 https://files.pythonhosted.org/packages/f8/48/5416696b9f2eacc7d1f9fe3a7187ad54d769e09585ec0b59c137ab5c7575/pyzmq-18.0.1.tar.gz
+https://github.com/saltstack/salt/releases/download/v2019.2.0/salt-2019.2.0.tar.gz
