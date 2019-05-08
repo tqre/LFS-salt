@@ -14,7 +14,6 @@ I have removed the original Linux used for compiling and configured network conn
 ### Steps to make Linux From Scratch Vagrant box:
 - compile wget
 - install BLFS systemd units
-- compile 7z (where is the salt tarball?)
 - compile openSSH
 - compile sudo
 - make vagrant user
@@ -34,7 +33,7 @@ I have removed the original Linux used for compiling and configured network conn
 - compiling scripts pending
   - python3 setup.py build
   - python3 setup.py install
-- for ZeroMQ:
+- for ZeroMQ & :
   - ./configure --prefix=/usr
   - make
   - make install
@@ -46,6 +45,8 @@ I have removed the original Linux used for compiling and configured network conn
 Manually created working salt-LFS version, where archlive-master can see and command LFS-salt-minion
 in virtualbox created NAT Network. Works despite master having a different Python version.
 Vagrantbox is ssh'able.
+
+Recompiled libffi and libgmp for generic architectures as testing laptop had AMD-processor.
 
 ### TODO
 - rewrite documentation
