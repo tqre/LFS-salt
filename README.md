@@ -1,4 +1,4 @@
-# Linux From Scratch 
+# Linux From Scratch & Saltstack
 ## saltminion in vagrantbox
 
 This project is based on Linux From Scratch 8.4-systemd, which has to compiled succesfully first. 
@@ -33,11 +33,13 @@ I have removed the original Linux used for compiling and configured network conn
 - compiling scripts pending
   - python3 setup.py build
   - python3 setup.py install
-- for ZeroMQ & :
+- for ZeroMQ & yaml:
   - ./configure --prefix=/usr
   - make
   - make install
 - make systemd service file
+  - https://github.com/saltstack/salt/blob/develop/pkg/salt-minion.service
+
 - make minion config file /etc/salt/minion
 - enable salt-minion.service
 
@@ -48,5 +50,4 @@ Vagrantbox is ssh'able.
 
 Recompiled libffi and libgmp for generic architectures as testing laptop had AMD-processor.
 
-### TODO
-- rewrite documentation
+Salt-minion.service working!
